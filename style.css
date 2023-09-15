@@ -1,0 +1,51 @@
+.menu,
+.bat{
+  width: 30px;
+  transform: scale(0.9);
+}
+.menu:hover{
+  transform: scale(1);
+}
+.bat:hover{
+  transform: scale(1);
+}
+.bat{
+  margin-left: 700px;
+}
+.main1 a,
+.main1 li{
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px; 
+  color: black;
+  text-shadow: 2px 2px 2px purple;
+  border: solid white;
+  background: white;
+  border-radius: 12px;
+  transform: scale(0.9);
+}
+.main1 a:hover{
+  transform: scale(1);
+  border: solid purple;
+  padding: 12px;
+  box-shadow: 5px 5px 5px black;
+}
+.main1 input{
+  background: linear-gradient(to left, purple, black);
+  padding: 12px;
+  border-radius: 15px;
+  font-family: 'Lobster', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Teko', sans-serif;
+}
+body{
+  font-family: 'Lobster', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Teko', sans-serif;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/005/076/592/original/hacker-mascot-for-sports-and-esports-logo-free-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.main{
+  display: grid;
+}
